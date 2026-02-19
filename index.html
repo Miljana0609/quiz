@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn About Me Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <!-- START SCREEN -->
+
+  <div id="start-screen">
+    <h1>Välkommen till Miljanas Quiz! 👋</h1>
+    <p>Redo att lära känna mig genom en quiz?</p>
+    <button onclick="startQuiz()">Starta Quiz</button>
+  </div>
+
+  <!-- QUIZ SCREEN -->
+
+  <div id="quiz-screen" class="hidden">
+    <div class="progress">
+      <div class="progress-bar" id="progress-bar"></div>
+    </div>
+
+    <h2 id="question-number"></h2>
+    <p id="question-text"></p>
+
+    <div id="answers"></div>
+  </div>
+
+  <!-- RESULT SCREEN -->
+  <div id="result-screen" class="hidden">
+    <h2>🎉 Rätt svar!</h2>
+    <p id="result-text"></p>
+    <img id="result-image" src="">
+    <button id = "next-btn" onclick="nextQuestion()">Nästa fråga</button>
+  </div>
+
+  <!-- END SCREEN -->
+  <div id="end-screen" class="hidden">
+    <h1>🥳 Bra jobbat!</h1>
+    <p>Tack för att du tog dig tid att lära känna mig 😄</p>
+    <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif">
+    <button onclick="restartQuiz()">Kör igen</button>
+  </div>
+
+</div>
+<footer>
+    <p> &copy; 2026 Miljanas Quiz</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
