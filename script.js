@@ -53,7 +53,7 @@ const questions = [
         answers: ["170cm", "165cm", "185cm"],
         correct: 1,
         image: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHEweWUyZG82aWRjMGI1aTI4djNzMnp6MXM4bHE0bG11dGYxOGN2biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L8hdZuf5cJ7mo/giphy.gif",
-        resultText: "Jag är 165cm lång och ibland behövs en pall i köket 😄"
+        resultText: "Jag är 165cm lång och ibland behövs det en pall i köket 😄"
       },
       {
         question: "Jag vann ett pris 2019, vilket?",
