@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(135deg, #667eea, #764ba2);
@@ -12,7 +15,7 @@ body {
   }
   
   .container {
-    width: 90%;
+    width: 100%;
     max-width: 700px;
     margin: 60px auto;
     background: rgba(0,0,0,0.3);
@@ -101,4 +104,12 @@ body {
   footer p {
     margin: 0;
   }
+
+  @media (max-width: 480px) {
+    .container {
+      padding: 15px;  /* mindre padding på små skärmar */
+      margin: 40px auto;
+    }
+  }
+  
   
